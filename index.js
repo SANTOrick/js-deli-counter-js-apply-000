@@ -37,7 +37,6 @@ function currentLine(katzDeliLine) {
 }
 
 
-=======
   var lineOrder = [];
 
   if (katzDeliLine.length === 0) {
