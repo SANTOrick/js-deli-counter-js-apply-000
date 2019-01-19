@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 let katzDeliLine = [];
+=======
+var katzDeliLine = [];
+>>>>>>> 9bd69b66bee384b599da29ea86810267ab851945
 
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
@@ -6,16 +10,25 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
+<<<<<<< HEAD
   if (katzDeliLine.length === 0) {
   return "There is nobody waiting to be served!";
   } else {
   for (var i = katzDeliLine.length; i >= 1; i --) {
+=======
+
+  for (var i = 0; i < katzDeliLine.length; i += 1) {
+    if (katzDeliLine.length === 0) {
+    return "There is nobody waiting to be served!";
+    } else {
+>>>>>>> 9bd69b66bee384b599da29ea86810267ab851945
       return ('Currently serving ' + katzDeliLine.shift() + ".");
     }
   }
 }
 
 function currentLine(katzDeliLine) {
+<<<<<<< HEAD
   let lineOrder = [];
 
   if (katzDeliLine.length === 0) {
@@ -30,3 +43,23 @@ function currentLine(katzDeliLine) {
 }
 
 
+=======
+  var lineOrder = [];
+
+  if (katzDeliLine.length === 0) {
+   return "The line is curently empty." ;
+ }
+
+  for (var i = 0; i < katzDeliLine.length; i += 1) {
+    var name = katzDeliLine[i];
+   lineOrder.push(' ' + (i + 1) + '. ' + name);
+  }
+  return "the line is currently:" + lineOrder;
+}
+
+console.log (takeANumber(katzDeliLine, "Ada"));
+console.log (takeANumber(katzDeliLine, "Grace"));
+console.log (takeANumber(katzDeliLine, 'joe'))
+console.log (nowServing(katzDeliLine))
+console.log (currentLine(katzDeliLine))
+>>>>>>> 9bd69b66bee384b599da29ea86810267ab851945
