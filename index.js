@@ -1,6 +1,5 @@
 
 let katzDeliLine = [];
-=======
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
@@ -9,12 +8,10 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-<<<<<<< HEAD
   if (katzDeliLine.length === 0) {
   return "There is nobody waiting to be served!";
   } else {
   for (var i = katzDeliLine.length; i >= 1; i --) {
-=======
 
   for (var i = 0; i < katzDeliLine.length; i += 1) {
     if (katzDeliLine.length === 0) {
