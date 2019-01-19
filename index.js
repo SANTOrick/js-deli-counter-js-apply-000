@@ -51,6 +51,6 @@ function currentLine(katzDeliLine) {
 
 console.log (takeANumber(katzDeliLine, "Ada"));
 console.log (takeANumber(katzDeliLine, "Grace"));
-console.log (takeANumber(katzDeliLine, 'joe'))
-console.log (nowServing(katzDeliLine))
-console.log (currentLine(katzDeliLine))
+console.log (takeANumber(katzDeliLine, 'joe'));
+console.log (nowServing(katzDeliLine));
+console.log (currentLine(katzDeliLine));
