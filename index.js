@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 let katzDeliLine = [];
 =======
 var katzDeliLine = [];
->>>>>>> 9bd69b66bee384b599da29ea86810267ab851945
 
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
@@ -21,14 +20,12 @@ function nowServing(katzDeliLine) {
     if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!";
     } else {
->>>>>>> 9bd69b66bee384b599da29ea86810267ab851945
       return ('Currently serving ' + katzDeliLine.shift() + ".");
     }
   }
 }
 
 function currentLine(katzDeliLine) {
-<<<<<<< HEAD
   let lineOrder = [];
 
   if (katzDeliLine.length === 0) {
@@ -62,4 +59,3 @@ console.log (takeANumber(katzDeliLine, "Grace"));
 console.log (takeANumber(katzDeliLine, 'joe'))
 console.log (nowServing(katzDeliLine))
 console.log (currentLine(katzDeliLine))
->>>>>>> 9bd69b66bee384b599da29ea86810267ab851945
